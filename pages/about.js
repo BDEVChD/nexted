@@ -5,12 +5,12 @@ export default function About() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Home</title>
+        <title>Next About Course</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="this is a nextjs course" />
       </Head>
-    <h1>Home</h1>
-    <p>This is the home page</p>
+    <h1>About</h1>
+    <p>This is the about page</p>
      
     </div>
   )
