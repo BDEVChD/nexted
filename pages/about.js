@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+
 export default function About() {
   return (
     <div className={styles.container}>
@@ -11,7 +12,18 @@ export default function About() {
       </Head>
     <h1>About</h1>
     <p>This is the about page</p>
-     
+    <style jsx>
+  
+    {`body{
+      background: purple; 
+    }
+    h1 {
+      color: purple; 
+    }
+
+        `}
+    </style>
+    <img src="/img/goku.png"></img>
     </div>
   )
 }
